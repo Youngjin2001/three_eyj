@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <script type="importmap">
+        {
+          "imports" :{
+            "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+             "gltf": "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js",
+             "orbit": "https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js"
+          }
+        }
+    </script>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="h_wrap">
+            <h1 class="logo">
+                <a href="../index.html"><img src="./img/logo.svg" alt="로고"></a>
+            </h1>
+            <a href="#">브랜드홈<img src="./img/ico_header_link_black.svg"></a>
+            <ul class="gnb">
+                <li><a href="#">미러리스/DSLR</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#">전체</a></li>
+                        <li><a href="#">고급기</a></li>
+                        <li><a href="#">중급기</a></li>
+                        <li><a href="#">보급기</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">렌즈</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">컴펙트 카메라</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">액세서리</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">C Logue</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">DJI</a>
+                
+                </li>
+                <li><a href="#">기타</a>
+                    <!-- <ul class="sub">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </li>
+            </ul>
+            <div class="mo_btu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="sub_gnb">
+                <img src="./img/ico_search_header.svg">
+                <a href="#"><img src="./img/ico_user.svg"></a>
+                <a href="#"><img src="./img/ico_cart.svg"></a>
+            </div>
+        </div>
+    </header>
+    <!-- section -->
+    <section>
+        <canvas></canvas>
+        <h3>Canon EOS 400D</h3>
+        <div class="tit">
+            <p><span class="tt">렌즈 마운트:</span> 캐논 EF-S 마운트</p>
+            <p><span class="tt">이미지 센서 종류:</span> CMOS 이미지 센서<br>
+                <span class="tt">이미지 센서 크기:</span> PS-C(22.2 × 14.8 mm)<br>
+                <span class="tt">최대 해상도:</span> 1050만 화소</p>
+            <p><span class="tt">감도 범위:</span> ISO 100~1600<br>
+                <span class="tt">기록 매체:</span> CF Type1,2<br>
+                <span class="tt">초점 방식:</span> TTL 2차결상 위상차검출</p>
+            <p><span class="ti">포커스 영역</span><br>
+                <span class="tt">AF 측거점 수:</span> 9개<br>
+                <span class="tt">크로스 측거점:</span> 1개</p>
+            <p><span class="tt">셔터:</span> 전자제어식 포컬프레인<br>
+                <span class="tt">셔터 속도 범위:</span> 1/4000초최고<br>
+                <span class="tt">동조속도:</span> 1/200초<br>
+                <span class="tt">연사 속도:</span> 3 fps</p>
+            <p><span class="tt">뷰파인더:</span> 펜타미러<br>
+                <span class="tt">뷰파인더 배율:</span> 0.8배<br>
+                <span class="tt">뷰파인더 시야율:</span> 95%</p>
+            <p><span class="tt">동영상 촬영:</span> 미지원<br>
+                <span class="tt">무게:</span> 510g</p>
+        </div>
+    </section>
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script type="module" src="./js/sub.js"></script>
+</body>
+</html>
